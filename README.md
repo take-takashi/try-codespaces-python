@@ -1,0 +1,2 @@
+# try-codespaces-python
+CodespacesでPythonやってみる。
