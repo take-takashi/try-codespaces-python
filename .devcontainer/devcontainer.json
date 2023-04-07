@@ -1,0 +1,6 @@
+{
+  // See https://github.com/microsoft/vscode-dev-containers/tree/main/containers/python-3
+  "name": "python",
+  "remoteUser": "vscode",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11-bullseye"
+}
