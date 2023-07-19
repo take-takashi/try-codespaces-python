@@ -11,7 +11,18 @@
         "ms-python.vscode-pylance",
         "ms-python.black-formatter",
         "ms-toolsai.jupyter"
-      ]
+      ],
+      "settings": {
+        "[python]": {
+          "editor.defaultFormatter": "ms-python.black-formatter",
+          "editor.formatOnSave": true,
+          "editor.tabSize": 4,
+          "editor.insertSpaces": true,
+          "python.analysis.typeCheckingMode": "basic"
+        },
+        // Python 拡張が提供するフォーマッター連携は無効にしておく
+        "python.formatting.provider": "none"
+      }
     }
   }
 }

@@ -1,0 +1,2 @@
+class InsertLog:
+    aaa = "vvvvv"
