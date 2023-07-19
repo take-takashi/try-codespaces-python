@@ -6,13 +6,9 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "donjayamanne.githistory",
         "ms-python.python",
-        "Gruntfuggly.todo-tree",
         "KevinRose.vsc-python-indent",
-        "oderwat.indent-rainbow",
         "ms-python.vscode-pylance",
-        "formulahendry.code-runner",
         "ms-python.black-formatter",
         "ms-toolsai.jupyter"
       ]
