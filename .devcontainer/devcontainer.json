@@ -2,5 +2,20 @@
   // See https://github.com/microsoft/vscode-dev-containers/tree/main/containers/python-3
   "name": "python",
   "remoteUser": "vscode",
-  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11-bullseye"
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11-bullseye",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "donjayamanne.githistory",
+        "ms-python.python",
+        "Gruntfuggly.todo-tree",
+        "KevinRose.vsc-python-indent",
+        "oderwat.indent-rainbow",
+        "ms-python.vscode-pylance",
+        "formulahendry.code-runner",
+        "ms-python.black-formatter",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
 }
