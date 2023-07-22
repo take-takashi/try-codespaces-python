@@ -1,0 +1,2 @@
+2023-07-22 23:32:53,278  WARNING warning message
+2023-07-22 23:32:53,279    ERROR error message
