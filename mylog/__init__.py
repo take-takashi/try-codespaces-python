@@ -1,0 +1,1 @@
+from .insertLog import MyLog
