@@ -1,6 +1,5 @@
 import mylog
 
-test = mylog.MyLog.insertLog("sasa")
+test = mylog.MyLog.insertLog(f"{__file__}.output.txt", "hello2")
 
-# TODO sample_UseMyLog.py.output.txtが生成されない（mylogパッケージ内に生成される）
-# TODO Rebuildコンテナーをするとフォーマッターがリセットされる？
+# TODO CHECK クラスを呼ぶの面倒
