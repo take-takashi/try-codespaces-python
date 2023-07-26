@@ -6,28 +6,23 @@
   "customizations": {
     "vscode": {
       "extensions": [
-		"ms-python.python",
-		"KevinRose.vsc-python-indent",
-		"ms-python.vscode-pylance",
-		"ms-python.black-formatter",
-		"ms-toolsai.jupyter",
-		"njpwerner.autodocstring",
-		"ms-python.flake8",
-		"Gruntfuggly.todo-tree",
-		"donjayamanne.githistory",
-		"oderwat.indent-rainbow",
-		"DavidAnson.vscode-markdownlint"
-	],
+        "ms-python.python",
+        "ms-python.black-formatter",
+        "ms-toolsai.jupyter",
+        "njpwerner.autodocstring",
+        "Gruntfuggly.todo-tree",
+        "donjayamanne.githistory",
+        "oderwat.indent-rainbow"
+      ],
       "settings": {
         "[python]": {
           "editor.defaultFormatter": "ms-python.black-formatter",
           "editor.formatOnSave": true,
           "editor.tabSize": 4,
-          "editor.insertSpaces": true,
-          "python.analysis.typeCheckingMode": "basic"
+          "editor.insertSpaces": true
         },
-        // Python 拡張が提供するフォーマッター連携は無効にしておく
-        "python.formatting.provider": "none"
+        // 厳密な型チェックなど
+        "python.analysis.typeCheckingMode": "strict"
       }
     }
   }
